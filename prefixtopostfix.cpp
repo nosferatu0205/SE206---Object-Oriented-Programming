@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+//author bsse 1227 mohammad momenuzzaman
 char shtack[20];
 int top = -1;
 

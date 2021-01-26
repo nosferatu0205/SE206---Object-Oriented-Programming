@@ -1,4 +1,3 @@
-
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -18,9 +17,9 @@ void preOrderGenerator(int cur,int node_t){
 	
 	preOrder.push_back(a[cur]);
 	
-	//1st recursive call -> left e jabe
+	//1st recursive call -> for right to left traversal
 	preOrderGenerator(2*cur,node_t);
-	//2nd recursive call -> right e jabe
+	//2nd recursive call -> for left to right traversal
 	preOrderGenerator(2*cur+1,node_t);
 }
 
